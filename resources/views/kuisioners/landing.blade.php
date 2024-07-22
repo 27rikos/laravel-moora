@@ -14,6 +14,8 @@
      />
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <style>
         body {
             font-family: "Montserrat";
@@ -95,9 +97,12 @@
 <!-- Hero Section -->
 <section class="hero">
     <div class="container hero-content">
-        <h1 class="display-4">Selamat Datang di Kuisioner Pelayanan</h1>
-        <p class="lead">Bantu kami meningkatkan pelayanan dengan mengisi kuisioner ini.</p>
-        <a href="#about" class="btn btn-light btn-lg">Pelajari Lebih Lanjut</a>
+        <div data-aos="fade-up"
+     data-aos-duration="2000">
+     <h1 class="display-4">Selamat Datang di Kuisioner Pelayanan</h1>
+     <p class="lead">Bantu kami meningkatkan pelayanan dengan mengisi kuisioner ini.</p>
+     <a href="#about" class="btn btn-light btn-lg">Pelajari Lebih Lanjut</a>
+</div>
     </div>
 </section>
 
@@ -155,6 +160,9 @@
 </footer>
 
 <!-- Bootstrap 4 JS and dependencies -->
+<script>
+    AOS.init();
+  </script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
